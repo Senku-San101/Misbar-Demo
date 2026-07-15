@@ -1,8 +1,9 @@
 
 
-![](icons/icon128.png)
-# Misbar - مِسبَار
-
+<div align="center">
+  <img src="icons/icon128.png" alt="Misbar Logo" width="128" />
+  <h1>Misbar - مِسبَار</h1>
+</div>
 
 (اللغة العربية في أسقل الصفحة)
 
