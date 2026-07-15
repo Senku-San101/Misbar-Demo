@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Misbar - مِسْبار Extension",
+  "name": "Misbar - مِسْبار",
   "version": "1.0.0",
   "description": "Security research toolkit — Intercept, Repeater, Payload Library, Content Decoder",
   "permissions": [
