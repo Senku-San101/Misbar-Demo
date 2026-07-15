@@ -9,8 +9,10 @@
 
 
 
+
+
 > **Disclamer : **
-This is only the Free version. Paid versionincludes 25+ advanced features, including AI assisstant, Crawling, Interceptor Breakpoints, and much more...
+This is only the Free version. Paid version includes 25+ advanced features, including AI assisstant, Crawling, Interceptor Breakpoints, and much more...
 To get it, get in touch with me through my links or the  website mail in here : https://abdulrahmankamal.netlify.app
 > 
 **Misbar** is a powerful, browser-native security testing extension designed for penetration testers, bug bounty hunters, and security researchers. Integrating directly into your browser's Developer Tools, Misbar provides a lightweight and immediate interface to intercept, modify, replay, and manipulate HTTP requests, removing the need to switch between external proxy tools like Burp Suite or ZAP during active testing.
@@ -89,10 +91,11 @@ Since Misbar runs as a Developer Tool extension, follow these steps to install i
 
 
 
-![](https://beta.appflowy.cloud/api/file_storage/7f403228-ffed-4b28-b772-f702ce27636b/v1/blob/8543b8a2-88fe-4eed-9cc0-143a534f79d6/4tzklsX38zJvdCSU-WIzT_84rOO37FnUKOMj7kfH2g0=.png)
-# Misbar - مِسبَار
 
-> **تنويه :**
+
+
+
+
 هذه ففط النسخة
 > **ملاحظة:** هذه هي النسخة **المجانية** فقط.  
 > بينما تتضمن النسخة **المدفوعة** أكثر من **٢٥ ميزة متقدمة**، تشمل:
