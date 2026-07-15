@@ -85,7 +85,11 @@ Since Misbar runs as a Developer Tool extension, follow these steps to install i
 <br>
 <br>
 <br>
-هذه ففط النسخة
+
+<br>
+<br>
+
+
 > **ملاحظة:** هذه هي النسخة **المجانية** فقط.  
 > بينما تتضمن النسخة **المدفوعة** أكثر من **٢٥ ميزة متقدمة**، تشمل:
 > - مساعد الذكاء الاصطناعي (AI Assistant)
