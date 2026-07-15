@@ -28,37 +28,37 @@ To get it, get in touch with me through my links or the  website mail in here : 
 ---
 ## 📸 Walkthrough & Feature Details
 ### 1. Traffic Interception & Flow Control
-
+![Editing and Moving Payloads](images/1.png)
 **Detailed Explanation:** Misbar operates as a MITM (Man-in-the-Middle) proxy within the browser. When the **"Intercept: ON"** switch is toggled, Misbar halts network requests, preventing resources (like images or API responses) from loading on the frontend. As shown in the screenshot, the UI indicates an active interception (`Debugger attached`), and the application's image fails to render because the `GET` request is paused for manual inspection.
 ### 2. Forwarding Requests & Resuming Load
-
+![Editing and Moving Payloads](images/2.png)
 **Detailed Explanation:** Once a security tester has inspected the paused request, they can simply **forward** it to the target server. The screenshot demonstrates the result: the previously blocked image successfully loads on the application interface, confirming that the interception process is non-destructive and completely reversible.
 ### 3. The Request Editor (Forward, Drop, Repeater)
-
+![Editing and Moving Payloads](images/3.png)
 **Detailed Explanation:** Clicking **"Edit & Send"** on an intercepted request opens a comprehensive editor. This window provides a complete breakdown of the HTTP request, including the Method (`POST`), Target URL, Request Headers, and Body. From here, you have three crucial actions:
 *   **Forward:** Send the request exactly as it currently sits.
 *   **Drop X:** Abandon the request completely so it never reaches the server.
 *   **Repeater:** Forward the current request to the dedicated _Repeater_ tab for persistent testing and manipulation.
 ### 4. The Repeater Module (Response Analysis)
-
+![Editing and Moving Payloads](images/4.png)
 **Detailed Explanation:** The **Repeater** is one of the most critical tools for manual testing. It allows you to view the raw server response to your modified requests. As seen in the image, the system displays the `STATUS` code (e.g., 400 Bad Request), response `TIME`, payload `SIZE`, and the raw HTML body. Users can repeatedly tweak the body or headers on the left and hit `Send` to launch the request again, ideal for fuzzing, path traversal, or testing WAF bypasses.
 ### 5. Pre-built Payload Library
-
+![Editing and Moving Payloads](images/5.png)
 **Detailed Explanation:** Misbar ships with a built-in **Payload Library**, pre-categorized into common vulnerability types such as XSS (Basic Script, SVG Onload), SQLi (Basic OR, Union Select, Time-Based), and SSTI (Jinja2). Each card features quick-action buttons: **Copy** (to instantly clone the payload to your clipboard for use elsewhere), **Send** (to push the payload directly into the Repeater body), **Edit**, and **Delete**.
 ### 6. Creating Custom Payloads
-
+![Editing and Moving Payloads](images/6.png)
 **Detailed Explanation:** Recognizing that pre-built lists are rarely enough for complex engagements, Misbar features a **Custom Payload** creator. This modal allows users to assign a descriptive name to their payload, select an existing category (such as "XSS"), and paste custom code or exploitation strings.
 ### 7. Instant Library Integration
-
+![Editing and Moving Payloads](images/7.png)
 **Detailed Explanation:** Upon clicking **Save**, the custom payload is instantly generated and visually inserted into the selected category section of the Payload Library. It mimics the exact structure of the built-in payloads, ensuring it is immediately available for reuse with the same Copy, Send, Edit, and Delete controls.
 ### 8. Dynamic Payload Management & Re-categorization
-
+![Editing and Moving Payloads](images/8.png)
 **Detailed Explanation:** Misbar's payload system is fully editable. By clicking the **Edit** button on a custom payload, users can not only modify the payload's code but also relocate it to a completely different category. The screenshot shows a payload (originally created in XSS) being edited and moved into the **SQL** category, showcasing the tool's adaptability to a user's evolving workflow.
 ### 9. Direct Payload Injection into Repeater
-
+![Editing and Moving Payloads](images/9.png)
 **Detailed Explanation:** This view demonstrates how the Payload Library interacts with the Repeater. The tester can push a `Payload content` variable or a specific XSS/SQL payload directly into the request body of an active test case. This automation saves time by allowing testers to cycle through various payload vectors without manually retyping them.
 ### 10. Integrated Encoder/Decoder Suite
-
+![Editing and Moving Payloads](images/10.png)
 **Detailed Explanation:** Misbar includes a robust cryptography and formatting utility panel. Testers can leverage this to quickly encode or decode strings for testing. The dropdown menu provides support for:
 *   URL Encode / Decode
 *   Base64 Encode / Decode
@@ -119,46 +119,46 @@ Since Misbar runs as a Developer Tool extension, follow these steps to install i
 ## 📸 شرح تفصيلي للميزات والوظائف
 
 ### 1. اعتراض حركة المرور والتحكم في التدفق
-
+![Editing and Moving Payloads](images/1.png)
 **الشرح التفصيلي:** تعمل أداة مِسبَار كبروكسي وسيط (MITM) داخل المتصفح. عند تفعيل مفتاح **"Intercept: ON"**، تقوم مِسبَار بإيقاف طلبات الشبكة مؤقتاً، مما يمنع تحميل الموارد (مثل الصور أو استجابات واجهات برمجة التطبيقات) في الواجهة الأمامية. كما هو موضح في لقطة الشاشة، تشير الواجهة إلى وجود اعتراض نشط (`Debugger attached`)، وتفشل صورة التطبيق في الظهور لأنه تم إيقاف طلب `GET` مؤقتاً للفحص اليدوي.
 
 ### 2. إعادة توجيه الطلبات واستئناف التحميل
-
+![Editing and Moving Payloads](images/2.png)
 **الشرح التفصيلي:** بمجرد أن يقوم مختبر الأمن بفحص الطلب المتوقف، يمكنه ببساطة **إعادة توجيهه (Forward)** إلى الخادم المستهدف. توضح لقطة الشاشة النتيجة: حيث يتم تحميل الصورة التي تم حظرها سابقاً بنجاح على واجهة التطبيق، مما يؤكد أن عملية الاعتراض غير تدميرية وقابلة للعكس تماماً.
 
 ### 3. محرر الطلبات (إعادة توجيه، إسقاط، تكرار)
-
+![Editing and Moving Payloads](images/3.png)
 **الشرح التفصيلي:** يؤدي الضغط على **"Edit & Send"** على طلب معترض إلى فتح محرر شامل. توفر هذه النافذة تحليلاً كاملاً لطلب HTTP، بما في ذلك الطريقة (`POST`)، وعنوان URL المستهدف، ورؤوس الطلبات، ومحتوى الجسم. من هنا، تتوفر لديك ثلاثة إجراءات حاسمة:
 -   **Forward (إعادة التوجيه):** إرسال الطلب كما هو تماماً في حالته الحالية.
 -   **Drop X (الإسقاط):** التخلي عن الطلب تماماً بحيث لا يصل إلى الخادم مطلقاً.
 -   **Repeater (التكرار):** إعادة توجيه الطلب الحالي إلى علامة التبويب المخصصة _للتكرار (Repeater)_ لاختبار ومعالجة مستمرة.
 
 ### 4. وحدة التكرار (تحليل الاستجابة)
-
+![Editing and Moving Payloads](images/4.png)
 **الشرح التفصيلي:** تعتبر أداة **التكرار (Repeater)** واحدة من أهم الأدوات للاختبار اليدوي. فهي تتيح لك رؤية استجابة الخادم الأولية لطلباتك المعدلة. كما يظهر في الصورة، يعرض النظام رمز `STATUS` الحالة (مثل 400 طلب غير صحيح)، وزمن الاستجابة `TIME`، وحجم الحمولة `SIZE`، ونص HTML الخام. يمكن للمستخدمين تعديل المحتوى أو الرؤوس في الجانب الأيسر بشكل متكرر والضغط على `Send` لإطلاق الطلب مرة أخرى، وهو أمر مثالي لاختبارات التزوير (Fuzzing)، أو اجتياز المسار (Path Traversal)، أو اختبار تجاوز جدار الحماية (WAF bypass).
 
 ### 5. مكتبة الحمولات الجاهزة (Pre-built Payload Library)
-
+![Editing and Moving Payloads](images/5.png)
 **الشرح التفصيلي:** تأتي مِسبَار مزودة بـ **مكتبة حمولات (Payload Library)** مضمنة، مصنفة مسبقاً حسب أنواع الثغرات الشائعة مثل XSS (نصوص أساسية، تحميل SVG)، و SQLi (OR أساسي، Union Select، استناد للزمن)، و SSTI (Jinja2). تحتوي كل بطاقة على أزرار إجراءات سريعة: **Copy (نسخ)** (لاستنساخ الحمولة إلى الحافظة لاستخدامها في مكان آخر)، و**Send (إرسال)** (لدفع الحمولة مباشرة إلى جسم أداة التكرار)، و**Edit (تعديل)**، و**Delete (حذف)**.
 
 ### 6. إنشاء حمولات مخصصة
-
+![Editing and Moving Payloads](images/6.png)
 **الشرح التفصيلي:** إدراكاً من الأداة بأن القوائم الجاهزة نادراً ما تكون كافية للاختبارات المعقدة، توفر مِسبَار أداة إنشاء **حمولات مخصصة (Custom Payload)**. تسمح هذه النافذة المنبثقة للمستخدمين بإعطاء اسم وصفي للحمولة الخاصة بهم، واختيار فئة موجودة (مثل "XSS")، ولصق الأكواد أو سلاسل الاستغلال المخصصة.
 
 ### 7. الدمج الفوري مع المكتبة
-
+![Editing and Moving Payloads](images/7.png)
 **الشرح التفصيلي:** عند الضغط على **Save (حفظ)**، يتم إنشاء الحمولة المخصصة فورياً وإدراجها بصرياً داخل قسم الفئة المحددة في مكتبة الحمولات. وهي تحاكي البنية الدقيقة للحمولات المدمجة، مما يضمن إتاحتها للاستخدام الفوري مع نفس أدوات التحكم (نسخ، إرسال، تعديل، حذف).
 
 ### 8. الإدارة الديناميكية وإعادة تصنيف الحمولات
-
+![Editing and Moving Payloads](images/8.png)
 **الشرح التفصيلي:** نظام الحمولات في مِسبَار قابل للتعديل بالكامل. من خلال الضغط على زر **Edit (تعديل)** في حمولة مخصصة، لا يمكن للمستخدمين تعديل كود الحمولة فقط، بل يمكنهم أيضاً نقلها إلى فئة مختلفة تماماً. توضح لقطة الشاشة حمولة (تم إنشاؤها أصلاً ضمن XSS) يتم تعديلها ونقلها إلى فئة **SQL**، مما يبرز قدرة الأداة على التكيف مع سير عمل المستخدم المتطور.
 
 ### 9. إدخال الحمولة مباشرة في أداة التكرار
-
+![Editing and Moving Payloads](images/9.png)
 **الشرح التفصيلي:** يوضح هذا العرض كيفية تفاعل مكتبة الحمولات مع أداة التكرار (Repeater). يمكن للمختبر دفع متغير `Payload content` أو حمولة XSS/SQL محددة مباشرة إلى محتوى جسم الطلب لحالة اختبار نشطة. توفر هذه الأتمتة الوقت من خلال السماح للمختبرين بالتدرج عبر ناقلات الحمولات المختلفة دون الحاجة إلى إعادة كتابتها يدوياً.
 
 ### 10. مجموعة التشفير وفك التشفير المدمجة
-
+![Editing and Moving Payloads](images/10.png)
 **الشرح التفصيلي:** تتضمن مِسبَار لوحة أدوات قوية للتشفير الصريح وتنسيق البيانات. يمكن للمختبرين الاستفادة منها لتشفير أو فك تشفير السلاسل بسرعة لاختبارها. توفر القائمة المنسدلة دعماً لـ:
 -   تشفير / فك تشفير URL
 -   تشفير / فك تشفير Base64
