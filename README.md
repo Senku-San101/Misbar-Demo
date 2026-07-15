@@ -16,11 +16,8 @@ This is only the Free version. Paid version includes 25+ advanced features, incl
 To get it, get in touch with me through my links or the  website mail in here : https://abdulrahmankamal.netlify.app
 > 
 
-<br>
 
-<br>
 
-<br>
 **Misbar** is a powerful, browser-native security testing extension designed for penetration testers, bug bounty hunters, and security researchers. Integrating directly into your browser's Developer Tools, Misbar provides a lightweight and immediate interface to intercept, modify, replay, and manipulate HTTP requests, removing the need to switch between external proxy tools like Burp Suite or ZAP during active testing.
 ## 🚀 Key Features
 *   **Real-time Request Interception:** Pause inbound/outbound HTTP requests to inspect, modify, or drop them before they reach the server.
@@ -108,11 +105,6 @@ Since Misbar runs as a Developer Tool extension, follow these steps to install i
 
 
 
-<br>
-
-<br>
-
-<br>
 
 **مِسبَار** هي أداة قوية ومدمجة لاختبار الأمان داخل المتصفح، مصممة خصيصاً لمختبرين الاختراق، وصائدي الثغرات، والباحثين في مجال الأمن السيبراني. من خلال التكامل المباشر مع أدوات المطور (Developer Tools) في المتصفح، توفر مِسبَار واجهة خفيفة وفورية لاعتراض، وتعديل، وإعادة إرسال، ومعالجة طلبات HTTP، مما يلغي الحاجة إلى التبديل بين أدوات البروكسي الخارجية مثل Burp Suite أو ZAP أثناء الاختبارات النشطة.
 
