@@ -79,7 +79,6 @@ Since Misbar runs as a Developer Tool extension, follow these steps to install i
 1.  **Editing:** When a request is intercepted, click **Edit & Send** to view the raw HTTP data.
 1.  **Replaying:** Forward a request to the **Repeater** to edit and resend it multiple times while viewing the server's specific response codes and bodies.
 1.  **Expanding:** If you need a specific payload for a proprietary vulnerability, use the **Payloads** tab to add it to your library.
----
 
 
 
